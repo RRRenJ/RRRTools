@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
+typedef void (^SuccessBlock) (id successValue);
+typedef void (^ErrorBlock) (id errorValue);
+typedef void (^ProgressBlock) (float progressValue);
+
 @interface RRRViewModel : NSObject
 
 @property (nonatomic, copy) SuccessBlock successBlock;

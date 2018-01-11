@@ -7,6 +7,8 @@
 //
 
 #import "UITableView+FooterView.h"
+#import "RRRLabel.h"
+#import "RRRToolsConfige.h"
 
 
 @implementation UITableView (FooterView)

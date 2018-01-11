@@ -9,10 +9,7 @@
 #ifndef RRRToolsConfige_h
 #define RRRToolsConfige_h
 
-
-typedef void (^SuccessBlock) (id successValue);
-typedef void (^ErrorBlock) (id errorValue);
-typedef void (^ProgressBlock) (float progressValue);
+#import "UIColor+Hex.h"
 
 #define SCR_WIDTH   [UIScreen mainScreen].bounds.size.width
 #define SCR_HEIGHT  [UIScreen mainScreen].bounds.size.height
