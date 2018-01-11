@@ -36,7 +36,7 @@
         
         self.text = @"--";
         self.textColor = [UIColor blackColor];
-        self.font = RRRFont(16);
+        self.font = [UIFont systemFontOfSize:16];
     }
     return self;
 }
@@ -47,8 +47,8 @@
     RRRLabel * label = [[RRRLabel alloc]init];
     label.text = text;
     label.textColor = textColor;
-//    label.font = [UIFont systemFontOfSize:fontSize];
-    label.font = RRRFont(fontSize);
+    label.font = [UIFont systemFontOfSize:fontSize];
+  
     label.textAlignment = textAlignment;
     
     return label;

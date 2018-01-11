@@ -11,7 +11,7 @@
 @implementation UILabel (LabelSize)
 
 + (CGFloat)getWidthByTitle:(NSString *)title AndFont:(CGFloat)font{
-    NSDictionary *attrs = @{NSFontAttributeName : RRRFont(font)};
+    NSDictionary *attrs = @{NSFontAttributeName : [UIFont systemFontOfSize:font]};
     CGSize size=[title sizeWithAttributes:attrs];
     return size.width+5;
 }
