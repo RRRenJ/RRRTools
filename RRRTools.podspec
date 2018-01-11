@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "RRRTools"  
-  s.version          = "0.0.4"  
+  s.version          = "0.0.5"  
   s.summary          = "my common tools."  
   s.homepage         = "https://github.com/RRRenJ/RRRTools"  
   s.license          = 'MIT'  
@@ -8,6 +8,6 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/RRRenJ/RRRTools.git", :tag => s.version.to_s }  
   s.platform     = :ios, '8.0'    
   s.requires_arc = true  
-  s.source_files = 'RRRTools/*'      
+  s.source_files = 'RRRTools/**/*'      
   s.frameworks = 'Foundation','UIKit'
 end  
