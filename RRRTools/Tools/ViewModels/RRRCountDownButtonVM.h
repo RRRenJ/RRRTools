@@ -6,10 +6,10 @@
 //  Copyright © 2017年 任敬. All rights reserved.
 //
 
-#import "RRRViewModel.h"
+#import <Foundation/Foundation.h>
 #import "RRRButton.h"
 
-@interface RRRCountDownButtonVM : RRRViewModel
+@interface RRRCountDownButtonVM : NSObject
 
 @property (nonatomic, strong) RRRButton * countDownButton;
 
